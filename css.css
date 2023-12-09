@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* начало нового года */
+.time{
+    width: 100wh;
+    height: 100vh;
+    background: url(./99px_ru_wallpaper_347157_sijaushaja_elka_na_fone_gor.jpg)center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time__text{
+    width: 400px;
+    display: flex;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time__text p{
+    margin-left: 20px;
+    font-size: clamp(10px, 10vw, 120px);;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.count{
+    width: 200px;
+    height: 200px;
+    background: url();
+    background-color: #451a5d6a;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.count p{
+    font-size: 50px;
+    color: aliceblue;
+}
+.count input{
+    border-radius: 5px;
+    border: none;
+}
+
+.button{
+    font-size: 30px;
+}
